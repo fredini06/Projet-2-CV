@@ -215,7 +215,7 @@ h3{
         display: none;
     }
     
-    #icones{
+    .fas{
     font-size: 30px;
     }
 }

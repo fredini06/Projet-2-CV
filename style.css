@@ -66,13 +66,17 @@ footer{
 .loisirs i{
     color: #FFF;
     font-size: 50px;
+    padding: 7px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
 }
 
 .iconBas{
     display: flex;
     justify-content: space-around;
     margin: 30px;
-    margin-bottom: 60px
+    margin-bottom: 60px;
 }
 
 .align{
@@ -117,6 +121,11 @@ h2{
     margin-bottom: 25px;
 }
 
+.recomm{
+    display: flex;
+    align-items: baseline;
+    }
+
 .sousH2{
     width: 100%;
     border-top: 2px solid #1976D2;
@@ -129,7 +138,7 @@ h2{
 
 .fas{
     color: #1976D2;
-    font-size: 40px;  
+    font-size: 40px; 
 }
 
 .PartDroite{
@@ -232,18 +241,10 @@ h3{
         display: none;
     }
     
-    .fas{
-    font-size: 30px;
-    }
-    
-    .icon{
-    font-size: 12px;
-    }
-    
     .text{
-    padding: 0 20px 0 40px;
-    margin: 25px 0 25px 0;
-    text-align: center;
+        padding: 0 20px 0 40px;
+        margin: 25px 0 25px 0;
+        text-align: center;
     }
     
     .PartDroite{
@@ -256,6 +257,29 @@ h3{
     
     .year{
         margin-left: 0;
+    }
+    
+    .PartDroiteTextBas .first{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .PartDroiteTextBas{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .recomm{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .sideH2{
+        margin-left: 0;
+    }
+    
+    .sousH2{
+    width: 50%;
     }
 }
 

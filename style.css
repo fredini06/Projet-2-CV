@@ -140,9 +140,13 @@ h2{
     flex: 1;
 }
 
-.date div{
+.dateResp{
     display: inline-block;
     vertical-align: top;
+}
+
+.year{
+    margin-left: 10px;
 }
 
 .PartDroiteText
@@ -180,6 +184,7 @@ h3{
 
 .villes{
     font-weight: 700;
+    margin-left: 10px;
 }
 
 .bog{
@@ -189,7 +194,7 @@ h3{
 /*--------RESPONSIVE-------*/
 
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 768px){
     .page{
         display: flex;
         flex-direction: column-reverse;
@@ -239,6 +244,18 @@ h3{
     padding: 0 20px 0 40px;
     margin: 25px 0 25px 0;
     text-align: center;
+    }
+    
+    .PartDroite{
+        flex-direction: column;
+    }
+    
+    .dateResp{
+        display: flex;
+    }
+    
+    .year{
+        margin-left: 0;
     }
 }
 
